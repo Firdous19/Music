@@ -16,7 +16,7 @@ export default function Navbar({ className }: { className?: string }) {
                 <MenuItem setActive={setActive} active={active} item="Our Courses">
                     <div className="flex flex-col space-y-4 text-sm hover:text-gray-600">
                         <HoveredLink href="/courses">All Courses</HoveredLink>
-                        <HoveredLink href="/music">Music Band Theory</HoveredLink>
+                        <HoveredLink href="/music-band-theory">Music Band Theory</HoveredLink>
                         <HoveredLink href="/team">Advanced Composition</HoveredLink>
                         <HoveredLink href="/enterprise">Song Writing</HoveredLink>
                         <HoveredLink href="/enterprise">Music Production</HoveredLink>
